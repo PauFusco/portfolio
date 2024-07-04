@@ -2,7 +2,7 @@ window.PorfolioConfig = {
   name: "Pau Fusco",
   jobTitle: "Full-stack Web Developer",
   jobDescription:
-    "Sit quis in tempor quis. Nisi ex exercitation in irure. Reprehenderit sint aliqua et dolore enim laboris dolore exercitation magna aliqua ex ad.",
+    "I'm Pau Fusco, a Videogame Design and Development student in CITM Barcelona. I want to make my passion get to gamers all around the world and let them enjoy great interactive experiences! Interest in Code and Design.",
   skills: [
     {
       name: "JavaScript",
@@ -33,7 +33,7 @@ window.PorfolioConfig = {
     },
     {
       name: "Morpheus' Dream",
-      link: "",
+      link: "https://softdrawss.itch.io/morpheus-dream",
       description:
         "A short mystery walking sim, product of a Game Jam. Done by a group of 3 people with Unity.",
     },
@@ -44,8 +44,8 @@ window.PorfolioConfig = {
         "A tool for the game Warframe that uses the warframe.market API to be able to access its information easier. Done by a group of 2 people in Dart.",
     },
     {
-      name: "No Time To Dice",
-      link: "",
+      name: "No Time To Di(c)e",
+      link: "https://xgauss05.itch.io/no-time-to-dice",
       description:
         "A short action top-down arcade shooter with a casino easthetic, product of a Game Jam. Done by a group of 12 people using a custom engine.",
     },
@@ -67,22 +67,22 @@ window.PorfolioConfig = {
     },
   ],
   contacts: {
-    email: "john.doe@gmail.com",
-    mobileNo: "+639171234567",
-    phoneNo: "+12 345 6789",
+    email: "pau.fusco.zamora@gmail.com",
+    // mobileNo: "+639171234567",
+    // phoneNo: "+12 345 6789",
     links: [
       {
         name: "GitHub",
-        link: "https://github.com/jofftiquez",
+        link: "https://github.com/PauFusco",
       },
       {
-        name: "Facebook",
-        link: "https://facebook.com/jofftiquez",
+        name: "itch.io",
+        link: "https://jeserak.itch.io",
       },
-      {
-        name: "Twitter",
-        link: "https://twitter.com/jrtiquez",
-      },
+      // {
+      //   name: "Twitter",
+      //   link: "https://twitter.com/jrtiquez",
+      // },
     ],
   },
 };
