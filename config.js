@@ -79,10 +79,10 @@ window.PorfolioConfig = {
         name: "itch.io",
         link: "https://jeserak.itch.io",
       },
-      // {
-      //   name: "Twitter",
-      //   link: "https://twitter.com/jrtiquez",
-      // },
+      {
+        name: "LinkedIn",
+        link: "https://www.linkedin.com/in/pau-fusco-zamora-ab1226244/",
+      },
     ],
   },
 };
