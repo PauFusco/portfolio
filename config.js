@@ -21,26 +21,33 @@ window.PorfolioConfig = {
   works: [
     {
       name: "Alien Nemesis",
-      link: "https://jofftiquez.github.io/vue-stripe-checkout",
+      link: "",
       description:
-        "Mollit dolor tempor adipisicing non pariatur in tempor cillum do. In officia ullamco laborum ullamco voluptate. Laboris sunt quis enim Lorem laboris aliquip duis non magna excepteur voluptate. Pariatur velit aliquip officia nulla anim reprehenderit deserunt. Sint nostrud ipsum do aliquip.",
+        "An arcade shooter done by the whole class of 23 students inspired in the Alien franchise, made with a custom engine.",
     },
     {
       name: "Jailed VR",
-      link: "https://theuselessweb.com/",
+      link: "",
       description:
-        "Esse magna anim incididunt enim sint aute consectetur ipsum id nostrud eu do. Pariatur et anim enim aliquip anim. Laboris labore incididunt labore enim nisi elit excepteur deserunt irure exercitation exercitation. Lorem sit ad laborum sit velit veniam sit nisi nostrud occaecat duis nulla duis.",
+        "A puzzle VR game with psychological horror elements made by a group of 5 people from scratch with Unity.",
     },
     {
       name: "Morpheus' Dream",
-      link: "https://theuselessweb.com/",
+      link: "",
       description:
-        "Incididunt non cupidatat deserunt ut commodo qui non do Lorem. Qui aute minim enim sit magna est consectetur incididunt. Ex est cupidatat tempor pariatur deserunt labore tempor minim laboris magna ipsum minim ea ea. Consectetur do anim laboris nulla nisi veniam sint qui.",
+        "A short mystery walking sim, product of a Game Jam. Done by a group of 3 people with Unity.",
     },
     {
       name: "Warframe Market Tool",
       link: "",
-      description: "",
+      description:
+        "A tool for the game Warframe that uses the warframe.market API to be able to access its information easier. Done by a group of 2 people in Dart.",
+    },
+    {
+      name: "No Time To Dice",
+      link: "",
+      description:
+        "A short action top-down arcade shooter with a casino easthetic, product of a Game Jam. Done by a group of 12 people using a custom engine.",
     },
   ],
   hobbies: [
