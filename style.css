@@ -152,7 +152,12 @@ hr {
 
 .projects-cards {
     display: grid;
+    justify-items: center;
     gap: 2em;
+}
+
+.project-card-info {
+    padding: 20px;
 }
 
 .project-card-info h2 {
@@ -171,13 +176,18 @@ hr {
 .project-card-info p {
     font-size: 16px;
     font-weight: 100;
+    margin: 0 0 0 1rem;
 }
 
 .project-card-info a {
     font-size: 14px;
     font-weight: 300;
     color: #7868E6;
+    margin: 0 0 0 1rem;
+    display: flex;
+    padding: 8px;
 }
+
 .project-card-info ul li {
     text-transform: uppercase;
     margin: 0 1rem;
@@ -237,7 +247,7 @@ hr {
     fill: var(--primary-color);
 }
 
-footer {
+.footer {
     display: flex;
     align-items: center;
     justify-content: center;
