@@ -9,8 +9,8 @@
         <div class="dialog-content">
           <div v-html="htmlContent"></div>
           <div class="dialog-bottom">
-          <a @click="$emit('close')" class="dialog-close-button">Close</a>
-        </div>
+            <a @click="$emit('close')" class="dialog-close-button">Close</a>
+          </div>
         </div>
       </div>
     </div>
@@ -29,7 +29,7 @@ export default Vue.extend({
     htmlContent: String,
   },
   methods: {
-    getImage: function(url: string) {
+    getImage: function (url: string) {
       console.log("fetching image " + url);
     }
   }
@@ -38,24 +38,24 @@ export default Vue.extend({
 
 <style scoped>
 .overlay {
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0, 0, 0, 0.5);
   z-index: 10;
-  position:fixed;
-  top:0px;
-  left:0px;
-  right:0px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
   bottom: 0px;
 }
 
 .dialog {
-  position:absolute;
+  position: absolute;
   top: 0px;
   left: 0px;
   right: 0px;
   z-index: 11;
   margin: 20px;
   padding-bottom: 10px;
-  color:white;
+  color: white;
 }
 
 iframe {
@@ -63,10 +63,10 @@ iframe {
 }
 
 h1.dialog-title {
-    text-align: center;
-    font-size: 1.3em;
-    margin: 0px;
-    padding: 22px;
+  text-align: center;
+  font-size: 1.3em;
+  margin: 0px;
+  padding: 22px;
 }
 
 .dialog-content {
@@ -77,14 +77,16 @@ h1.dialog-title {
   background-color: #fcfcfc;
   color: #696969;
 }
+
 .dialog-close {
   position: absolute;
   top: 20px;
   right: 20px;
-  cursor:pointer;
+  cursor: pointer;
   font-size: 1.2em;
   font-weight: 100;
 }
+
 .dialog-close:hover {
   opacity: 0.6;
 }
@@ -94,13 +96,13 @@ h1.dialog-title {
 }
 
 a.dialog-close-button {
-  cursor:pointer;
+  cursor: pointer;
   font-size: 1.4em;
   display: inline-block;
   margin: 0 auto;
 }
 
-@media only screen and (min-width: 620px){
+@media only screen and (min-width: 620px) {
   .dialog {
     margin: 0 auto;
     margin-top: 80px;
@@ -116,6 +118,4 @@ a.dialog-close-button {
     padding: 40px;
   }
 }
-
-
 </style>

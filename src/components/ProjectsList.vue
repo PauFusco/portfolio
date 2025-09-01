@@ -1,31 +1,23 @@
 <template>
-    <div>
-      <div class="projects-list">
-        <template v-for="project in projects">
-          <div
-            :key="project.id"
-              @click="showDetails(project)"
-              class="project-item"
-              :class="{ 'wide': project.isWide, 'high': project.isHigh }">
-            <div class="project-item-image" :style="{ 'background-image': 'url(' + project.iconUrl + ')' }">
-            </div>
-            <div class="title-bar" :style="{ 'background-color': project.accentColor + 'DD' }">
-                <div class="title-text">
-                  {{ project.name }}
-                </div>
-              </div>
+  <div>
+    <div class="projects-list">
+      <template v-for="project in projects">
+        <div :key="project.id" @click="showDetails(project)" class="project-item"
+          :class="{ 'wide': project.isWide, 'high': project.isHigh }">
+          <div class="project-item-image" :style="{ 'background-image': 'url(' + project.iconUrl + ')' }">
           </div>
-        </template>
-      </div>
-
-      <ProjectDetailsOverlay
-        v-on:close="showPopup = false"
-        :visible="showPopup"
-        :title="popupTitle"
-        :htmlContent="popupContent"
-        :color="popupColor"
-      />
+          <div class="title-bar" :style="{ 'background-color': project.accentColor + 'DD' }">
+            <div class="title-text">
+              {{ project.name }}
+            </div>
+          </div>
+        </div>
+      </template>
     </div>
+
+    <ProjectDetailsOverlay v-on:close="showPopup = false" :visible="showPopup" :title="popupTitle"
+      :htmlContent="popupContent" :color="popupColor" />
+  </div>
 </template>
 
 <script lang="ts">
@@ -58,14 +50,13 @@ export default Vue.extend({
       this.popupColor = item.accentColor;
       this.popupContent = item.htmlDescription;
       this.showPopup = true;
-      window.scrollTo(0,0);
+      window.scrollTo(0, 0);
     },
   },
 });
 </script>
 
 <style scoped>
-
 .project-item {
   height: 300px;
   margin-bottom: 20px;
@@ -82,6 +73,7 @@ export default Vue.extend({
   width: 100%;
   transition: all 0.2s;
 }
+
 .project-item-image:hover {
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
@@ -89,7 +81,7 @@ export default Vue.extend({
 }
 
 .project-item:hover {
-filter: brightness(120%);
+  filter: brightness(120%);
 }
 
 .title-bar {
@@ -103,7 +95,7 @@ filter: brightness(120%);
   padding: 10px;
 }
 
-@media only screen and (min-width: 620px){
+@media only screen and (min-width: 620px) {
   .projects-list {
     max-width: 900px;
     display: grid;
@@ -121,11 +113,9 @@ filter: brightness(120%);
   .wide {
     grid-column-end: span 2;
   }
+
   .high {
     grid-row-end: span 2;
   }
 }
-
-
-
 </style>

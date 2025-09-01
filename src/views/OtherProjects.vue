@@ -3,7 +3,8 @@
     <h1>Other stuff</h1>
 
     <div style="margin-bottom: 30px;">
-      And here are some other stuff I've made or heavily contributed to, which are totally different than the stuff from earlier.
+      And here are some other stuff I've made or heavily contributed to, which are totally different than the stuff from
+      earlier.
     </div>
     <ProjectsList v-bind:projects="projects" />
   </div>

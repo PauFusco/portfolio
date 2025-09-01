@@ -1,14 +1,6 @@
 <template>
   <div>
-    <div class="skill-name">{{name}}</div>
-
-    <div class="skill-rate">
-      <template v-for="n in 5">
-        <div v-if="n <= rate" class="circle circle-full" :key="`${name}-${n}`"></div>
-        <div v-if="n > rate" class="circle circle-empty" :key="`${name}-${n}`"></div>
-      </template>
-    </div>
-    <div class="clear"></div>
+    <div class="skill-name">{{ name }}</div>
   </div>
 </template>
 
@@ -18,14 +10,12 @@ import Vue from "vue";
 export default Vue.extend({
   name: "SkillRate",
   props: {
-    name: String,
-    rate: Number,
+    name: String
   },
 });
 </script>
 
 <style scoped lang="less">
-
 @import '../css/variables.less';
 
 .clear {
@@ -34,13 +24,9 @@ export default Vue.extend({
 
 .skill-name {
   float: left;
-  width: 200px;
-}
-
-.skill-rate {
-  float: left;
-  width: 80px;
-  padding-top:11px;
+  border: 1px solid #ccc;
+  padding: 1px 10px;
+  margin: 5px;
 }
 
 .circle {
@@ -53,13 +39,14 @@ export default Vue.extend({
   opacity: 0.6;
   margin: 0px 2px;
 }
+
 .circle-full {
   background-color: @skillRateCircleColor;
 }
+
 .circle-empty {
   border-width: 1px;
   width: 8px;
   height: 8px;
 }
-
 </style>

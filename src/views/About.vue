@@ -1,20 +1,26 @@
 <template>
   <div style="margin-bottom: 80px;">
-    <h1>Hello!</h1>
+    <h1>Hey!</h1>
 
     <div class="paragraph">
       <div>
-        I'm <strong>John Matrix</strong>, a former Delta Force operative, now a hobbyist lumberjack.<br/>
-        I spend my days living alone with my daughter Jenny, and cutting trees and carrying trunks around to keep in shape.
+        I'm <strong>Pau Fusco</strong>, a Videogame Design and Development graduate, now searching for a job.
+        I want to make my passion get to gamers all around the world and let them enjoy great interactive experiences!
       </div>
 
-      <div style="margin-top: 20px;">I've worked on  <router-link to="/game-projects">stuff</router-link>, on <router-link to="/other-projects">other stuff</router-link>, and took part in <router-link to="/resume">a few things</router-link> as well.</div>
+      <div style="margin-top: 20px;">
+        I've worked on some <router-link to="/game-projects">University Projects</router-link>, and some
+        <router-link to="/other-projects">Game Jams</router-link> as well.
+      </div>
 
-      <div style="margin-top: 40px;">I'm <strong>currently looking for a job</strong> as a monk, like my good friend John Rambo did a few years back. You can reach me at <a href="mailto:johnmatrix@deltaforce.us">johnmatrix@deltaforce.us</a> or <router-link to="/contact">through here</router-link>.</div>
+      <div style="margin-top: 40px;">
+        I'm <strong>currently looking for a job</strong>. You can reach me
+        <router-link to="/contact">through here</router-link>.
+      </div>
     </div>
 
     <div class="photo">
-      <img src="img/avatar.png" alt="Avatar of John" /> 
+      <img src="img/pfp.png" alt="Avatar of Pau" />
     </div>
 
     <div style="clear:both"></div>
@@ -29,20 +35,19 @@
 }
 
 .photo {
-  margin-top: 50px;
+  margin-top: 20px;
   text-align: center;
 }
 
-@media only screen and (min-width: 620px){
+@media only screen and (min-width: 620px) {
   .paragraph {
     float: left;
   }
 
   .photo {
-    float: left;
-    padding: 10px;
-    padding-left: 80px;
+    float: start;
+    padding: 5px;
+    padding-left: 50px;
   }
 }
-
 </style>
