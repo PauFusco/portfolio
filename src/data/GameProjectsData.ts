@@ -1,104 +1,125 @@
 import ProjectData from '@/data/ProjectData.ts'
 
 export default [
-    new ProjectData("project-1", "Optimistic Chubby", "img/projects/project-1-icon.png",
+    new ProjectData("project-1", "Alien Nemesis", "img/projects/alien-nemesis.png",
         `
     <div class="paragraph">
-     <strong>Optimistic Chubby</strong> is a thing of beauty that I am so proud of. It's available on Android because why not.
-     <br/>Image by <a href="https://www.pexels.com/fr-fr/@knownasovan" target="_blank">OVAN</a>.
+        The final project of the 3rd year of the degree. This game was done by a whole class of 23 students,
+        each one with their roles and tasks.
+        Divided into three departments: Programming, Art, and Design, we developed this arcade shooter
+        inspired in the Alien franchise.
+        <br/>
+        For this project we also used a custom engine developed in the previous semester, so we worked
+        on the engine while working also in the game, adapting it to our necessities.
+        <br/>
+        Check the team in the <a href="https://shadow-wizard-games.github.io/Alien-Nemesis-Website/index.html" target="blank">Project Website</a>.
     </div>
     <div class="paragraph center">
-        <iframe class="youtube" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
-    </div>
-    <div class="paragraph center">
-        <a href="https://play.google.com/store/apps/details?id=some.playstore.thing" target="_blank"><img src="img/projects/play-store-logo.png" alt="Play Store badge" /></a>
-    </div>
+        <iframe class="youtube" src="https://www.youtube.com/embed/FczGKS7WU1w" frameborder="0" allowfullscreen></iframe>
+    </div>   
 
     <div class="paragraph">
-        Main features :
+        The features I worked on :
         <ul>
-        <li>Some stuff</li>
-        <li>Some great stuff</li>
-        <li>More awesome stuff</li>
-        <li>And then some</li>
-        </ul>
-    </div>
-
-    <div class="paragraph center">
-        <img class="phone-screenshot" src="https://fakeimg.pl/300x534/" alt="Optimistic Chubby Screenshot" />
-        <img class="phone-screenshot" src="https://fakeimg.pl/300x534/" alt="Optimistic Chubby Screenshot" />
-    </div>
-    `, "#23bd69", true),
-
-    new ProjectData("project-2", "Singing Addict", "img/projects/project-2-icon.png", `
-    <div class="paragraph">
-        <strong>Optimistic Chubby Blog</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
-        <br/>Image by <a target="_blank" href="https://www.pexels.com/fr-fr/@adonyi-gabor-604571">Adonyi Gábor</a>.
-    </div>
-    <div class="paragraph center">
-        <iframe class="youtube" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
-    </div>
-
-    <div class="paragraph">
-        Main features :
-        <ul>
-        <li>Some stuff</li>
-        <li>Some great stuff</li>
-        <li>More awesome stuff</li>
-        <li>And then some</li>
+        <li>Engine Scene Management</li>
+        <li>Engine Prefab System</li>
+        <li>Player Abilities and Movement</li>
+        <li>Bug and Crash Fixing</li>
         </ul>
     </div>
 
     <div class="paragraph">
     <div class="notice">
-        Windows build available on <a href="https://some.where/nice" target="_blank">itch.io</a>.
-        Source code is available on <a href="https://github.com/yourself" target="_blank">GitHub</a>.
+        Windows build and source code available in <a href="https://github.com/Shadow-Wizard-Games/TheOneEngine" target="_blank">GitHub</a>.
     </div>
     </div>
 
-    <div class="paragraph center">
-    <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Singing Addict Screenshot" />
-    <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Singing Addict Screenshot" />
-    <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Singing Addict Screenshot" />
-    <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Singing Addict Screenshot" />
-    </div>
-    `, "#5a78af"),
+    `, "#23bd69", false, true),
 
-    new ProjectData("project-3", "Drawing Overload", "img/projects/project-3-icon.png", `
+    new ProjectData("project-2", "2D Combat System Prototype", "img/projects/TFG.png", `
     <div class="paragraph">
-        <strong>Drawing Overload</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
-        <br/>Image by <a target="_blank" href="https://www.pexels.com/fr-fr/@miphotography">Miesha Maiden</a>.
+        This is my <strong>End of Degree Project</strong>: the prototype of a 2D Combat System.
+        This project also included the design of said Combat System.
+        <br/>
+        The target of this project was to mix the Combat Systems of Platform Fighting Games (like Super Smash Bros.)
+        with Metroidvanias (such as Hollow Knight), offering a more mobile and agile combat experience.
+        <br/>
+        This was developed using Unity, and I created a custom "Input Manager" to have a more customizable
+        and predictable system for input detection.
+        <br/>
+        The following video showcases the process of creation of the prototype.
     </div>
     <div class="paragraph center">
-        <iframe class="youtube" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+        <iframe class="youtube" src="https://www.youtube.com/embed/sfrP1aZKm2w" frameborder="0" allowfullscreen></iframe>
     </div>
 
     <div class="paragraph">
         Main features :
         <ul>
-        <li>Some stuff</li>
-        <li>Some great stuff</li>
-        <li>More awesome stuff</li>
-        <li>And then some</li>
+        <li>Resource Management of enemies and player</li>
+        <li>14 different attacks, 7 airborne and 7 grounded</li>
+        <li>Pogo jump, Parries, and Chargeable attacks</li>
+        <li>Camera Shake that depends on attack strength</li>
+        <li>Custom Input System</li>
+        <li>Attacks are Scriptable Objects: +flexibility & +iteration</li>
+        </ul>
+    </div>
+
+    <div class="paragraph">
+    <div class="notice">
+        Windows build, source code, and project report all available on
+        <a href="https://github.com/PauFusco/TFG2DCS" target="_blank">GitHub</a>.
+    </div>
+    </div>
+
+    <div class="paragraph center">
+    <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Singing Addict Screenshot" />
+    <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Singing Addict Screenshot" />
+    <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Singing Addict Screenshot" />
+    <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Singing Addict Screenshot" />
+    </div>
+    `, "#e48246", false, true),
+
+    new ProjectData("project-3", "Jailed VR", "img/projects/jailedvr.png", `
+    <div class="paragraph">
+        <strong>Jailed VR</strong> is a VR Psychological Horror Puzzle Game, where players need to solve
+        three puszzles to escape the house they are trapped in.
+        <br/>
+        This project was developed by five people: three programmers, one designer, and one 3D Artist,
+        with the Meta Quest 2 VR headset in mind.
+        <br/>
+        This game takes focus in the interaction with in-game objects to tackle the three puzzles,
+        while using the environment to add tension.
+    </div>
+    <div class="paragraph center">
+        <iframe class="youtube" src="https://www.youtube.com/embed/Gyj4yftFy-Q" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <div class="paragraph">
+        Main features I worked on:
+        <ul>
+        <li>Thought about the three puzzles and designed the base for them</li>
+        <li>Implemented one of the three puzzles, one focused on using a radio by rotating its dial.</li>
+        <li>Haptic feedback on the player's actions for a more immersive experience</li>
         </ul>
     </div>
 
     <div class="paragraph">
         <div class="notice">
-        Playable in the browser (WebGL) on <a href="https://some.where/nice" target="_blank">itch.io</a>.
-        Source code is available on <a href="https://github.com/yourself" target="_blank">GitHub</a>.
+        Playable on <a href="https://xgauss05.itch.io/jailed-vr" target="_blank">itch.io</a>.
+        Source code is available on <a href="https://github.com/Ethanm-0371/Jailed-VR" target="_blank">GitHub</a>.
         </div>
     </div>
 
-    <div class="paragraph center">
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drawing Overload Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drawing Overload Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drawing Overload Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drawing Overload Screenshot" />
-    </div>
+    <!-- <div class="paragraph center">
+         <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drawing Overload Screenshot" />
+         <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drawing Overload Screenshot" />
+         <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drawing Overload Screenshot" />
+         <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drawing Overload Screenshot" />
+     </div> -->
     `, "#383838"),
 
-    new ProjectData("project-4", "Eugeneable", "img/projects/project-4-icon.png", `
+    new ProjectData("project-4", "Return: A JRPG Parody", "img/projects/project-4-icon.png", `
     <div class="paragraph">
     <strong>Eugeneable</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
     <br/>Image by <a target="_blank" href="https://www.pexels.com/fr-fr/@neo8iam">NEOSiAM 2020</a>.
@@ -126,7 +147,7 @@ export default [
     </div>
     `, "#e80fb7"),
 
-    new ProjectData("project-5", "Cloud Drew Land", "img/projects/project-5-icon.png", `
+    new ProjectData("project-5", "TotallyNotWaluigi Pinball", "img/projects/project-5-icon.png", `
     <div class="paragraph">
         <strong>Cloud Drew Land</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
         <br/>Image by <a target="_blank" href="https://www.pexels.com/fr-fr/@cottonbro">cottonbro</a>.
