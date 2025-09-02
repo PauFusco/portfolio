@@ -13,9 +13,9 @@
         <router-link to="/other-projects">Game Jams</router-link> as well.
       </div>
 
-      <div style="margin-top: 40px;">
-        I'm <strong>currently looking for a job</strong>. You can reach me
-        <router-link to="/contact">through here</router-link>.
+      <div style="margin-top: 20px;">
+        I'm currently <strong>looking for a job</strong>.
+        You can reach me <router-link to="/contact">through here</router-link>.
       </div>
     </div>
 

@@ -9,7 +9,7 @@
     <ul>
       <li>
         <i class="fa fa-user-circle-o fa-lg fa-fw"></i>
-        <a href="http://paufusco.github.io/portfolio" target="_blank">http://paufusco.github.io/portfolio</a>
+        <a href="http://paufusco.github.io/portfolio" target="_blank">Portfolio</a>
       </li>
       <li>
         <i class="fa fa-envelope-o fa-lg fa-fw"></i>
@@ -17,7 +17,7 @@
       </li>
       <li>
         <i class="fa fa-linkedin fa-lg fa-fw" style="vertical-align: -5%;"></i>
-        <a href="https://www.linkedin.com/in/pau-fusco-zamora" target="_blank">linkedin.com/paufusco</a>
+        <a href="https://www.linkedin.com/in/paufusco" target="_blank">linkedin.com/paufusco</a>
       </li>
       <li>
         <i class="fa fa-github fa-lg fa-fw"></i>
