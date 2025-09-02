@@ -97,43 +97,43 @@
       <div>Four years in High School</div>
 
       <h3>Japanese</h3>
-      <div>A bit of Duolingo</div>
+      <div>A bit of Duolingo here and there</div>
 
       <h3>Catalan</h3>
       <div>My Mother Tongue</div>
 
       <h3>Spanish</h3>
-      <div>My other Mother Tongue/div>
+      <div>My other Mother Tongue</div>
 
-        <h2>Besides...</h2>
+      <h2>Besides...</h2>
+      <div>
+        <h3>I ❤️ Video Games</h3>
         <div>
-          <h3>I ❤️ Video Games</h3>
-          <div>
-            Some of my favourites: Signalis, Breath of the Wild, Risk of Rain 2, and Katana Zero.
-            <br />
-            I love playing them, watching them, talking about them, and making them :D
-            <br />
-            If you see my 1600 hours in Warframe, it is not true. Steam is lying, I swear.
-          </div>
-
-          <h3>I 🧡 Music</h3>
-          <div>
-            I enjoy listening to music, and I play the Saxophone and Piano. I also play in a band ^-^
-            <br />
-            I truly feel blessed to live at the same time as the Risk of Rain 2 soundtrack.
-          </div>
-
-          <h3>I 💛 Manga & Anime</h3>
-          <div>
-            I grew up watching Dragon Ball, Dr. Slump, and Ranma½; now I spend my Sunday afternoons
-            waiting for my weekly Kagurabachi chapter.
-          </div>
-
-          <h3>I 💚 My Cat</h3>
-          <div class="tech-stack">It is so cute I wanna die!</div>
+          Some of my favourites: Signalis, Breath of the Wild, Risk of Rain 2, and Katana Zero.
+          <br />
+          I love playing them, watching them, talking about them, and making them :D
+          <br />
+          If you see my 1600 hours in Warframe, it is not true. Steam is lying, I swear.
         </div>
+
+        <h3>I 🧡 Music</h3>
+        <div>
+          I enjoy listening to music, and I play the Saxophone and Piano. I also play in a band ^-^
+          <br />
+          I truly feel blessed to live at the same time as the Risk of Rain 2 soundtrack.
+        </div>
+
+        <h3>I 💛 Manga & Anime</h3>
+        <div>
+          I grew up watching Dragon Ball, Dr. Slump, and Ranma½; now I spend my Sunday afternoons
+          waiting for my weekly Kagurabachi chapter.
+        </div>
+
+        <h3>I 💚 My Cat</h3>
+        <div class="tech-stack">It is so cute I wanna die!</div>
       </div>
     </div>
+  </div>
 </template>
 
 <script lang="ts">
