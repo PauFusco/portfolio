@@ -27,10 +27,6 @@
         <i class="fa fa-gamepad fa-lg fa-fw"></i>
         <a href="https://jeserak.itch.io" target="_blank">jeserak.itch.io</a>
       </li>
-      <!-- <li>
-        <i class="fa fa-tumblr fa-lg fa-fw"></i>
-        <a href="https://myblog.tumblr.com" target="_blank">myblog.tumblr.com</a>
-      </li> -->
       <li>
         <i class="fa fa-steam fa-lg fa-fw"></i>
         <a href="https://steamcommunity.com/profiles/76561198368314137/" target="_blank">steam.com/jeserak</a>

@@ -36,50 +36,6 @@ export default [
 
     `, "#23bd69", false, true),
 
-    new ProjectData("project-2", "2D Combat System Prototype", "img/projects/TFG.png", `
-    <div class="paragraph">
-        This is my <strong>End of Degree Project</strong>: the prototype of a 2D Combat System.
-        This project also included the design of said Combat System.
-        <br/>
-        The target of this project was to mix the Combat Systems of Platform Fighting Games (like Super Smash Bros.)
-        with Metroidvanias (such as Hollow Knight), offering a more mobile and agile combat experience.
-        <br/>
-        This was developed using Unity, and I created a custom "Input Manager" to have a more customizable
-        and predictable system for input detection.
-        <br/>
-        The following video showcases the process of creation of the prototype.
-    </div>
-    <div class="paragraph center">
-        <iframe class="youtube" src="https://www.youtube.com/embed/sfrP1aZKm2w" frameborder="0" allowfullscreen></iframe>
-    </div>
-
-    <div class="paragraph">
-        Main features :
-        <ul>
-        <li>Resource Management of enemies and player</li>
-        <li>14 different attacks, 7 airborne and 7 grounded</li>
-        <li>Pogo jump, Parries, and Chargeable attacks</li>
-        <li>Camera Shake that depends on attack strength</li>
-        <li>Custom Input System</li>
-        <li>Attacks are Scriptable Objects: +flexibility & +iteration</li>
-        </ul>
-    </div>
-
-    <div class="paragraph">
-    <div class="notice">
-        Windows build, source code, and project report all available on
-        <a href="https://github.com/PauFusco/TFG2DCS" target="_blank">GitHub</a>.
-    </div>
-    </div>
-
-    <div class="paragraph center">
-    <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Singing Addict Screenshot" />
-    <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Singing Addict Screenshot" />
-    <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Singing Addict Screenshot" />
-    <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Singing Addict Screenshot" />
-    </div>
-    `, "#e48246", false, true),
-
     new ProjectData("project-3", "Jailed VR", "img/projects/jailedvr.png", `
     <div class="paragraph">
         <strong>Jailed VR</strong> is a VR Psychological Horror Puzzle Game, where players need to solve
@@ -119,7 +75,7 @@ export default [
      </div> -->
     `, "#383838"),
 
-    new ProjectData("project-4", "Return: A JRPG Parody", "img/projects/project-4-icon.png", `
+    new ProjectData("project-4", "Return: A JRPG Parody", "img/projects/return.png", `
     <div class="paragraph">
     <strong>Eugeneable</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
     <br/>Image by <a target="_blank" href="https://www.pexels.com/fr-fr/@neo8iam">NEOSiAM 2020</a>.
@@ -145,34 +101,51 @@ export default [
         <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Eugeneable Screenshot" />
         <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Eugeneable Screenshot" />
     </div>
-    `, "#e80fb7"),
+    `, "#9e642d"),
 
-    new ProjectData("project-5", "TotallyNotWaluigi Pinball", "img/projects/project-5-icon.png", `
+    new ProjectData("project-2", "2D Combat System Prototype", "img/projects/TFG.png", `
     <div class="paragraph">
-        <strong>Cloud Drew Land</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
-        <br/>Image by <a target="_blank" href="https://www.pexels.com/fr-fr/@cottonbro">cottonbro</a>.
+        This is my <strong>End of Degree Project</strong>: the prototype of a 2D Combat System.
+        This project also included the design of said Combat System.
+        <br/>
+        The target of this project was to mix the Combat Systems of Platform Fighting Games (like Super Smash Bros.)
+        with Metroidvanias (such as Hollow Knight), offering a more mobile and agile combat experience.
+        <br/>
+        This was developed using Unity, and I created a custom "Input Manager" to have a more customizable
+        and predictable system for input detection.
+        <br/>
+        The following video showcases the process of creation of the prototype.
     </div>
-    
+    <div class="paragraph center">
+        <iframe class="youtube" src="https://www.youtube.com/embed/sfrP1aZKm2w" frameborder="0" allowfullscreen></iframe>
+    </div>
+
     <div class="paragraph">
         Main features :
         <ul>
-        <li>Some stuff</li>
-        <li>Some great stuff</li>
-        <li>More awesome stuff</li>
-        <li>And then some</li>
+        <li>Resource Management of enemies and player</li>
+        <li>14 different attacks, 7 airborne and 7 grounded</li>
+        <li>Pogo jump, Parries, and Chargeable attacks</li>
+        <li>Camera Shake that depends on attack strength</li>
+        <li>Custom Input System</li>
+        <li>Attacks are Scriptable Objects: +flexibility & +iteration</li>
         </ul>
     </div>
 
     <div class="paragraph">
-        <div class="notice">
-        Windows build available on <a href="https://some.where/nice" target="_blank">itch.io</a>.
-        Source code available on <a href="https://github.com/yourself" target="_blank">GitHub</a>.
-        </div>
+    <div class="notice">
+        Windows build, source code, and project report all available on
+        <a href="https://github.com/PauFusco/TFG2DCS" target="_blank">GitHub</a>.
+    </div>
     </div>
 
-    <div class="paragraph center">
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Cloud Drew Land Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Cloud Drew Land Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Cloud Drew Land Screenshot" />
-    </div>`, "#e48246")
+    <!-- <div class="paragraph center">
+    <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Singing Addict Screenshot" />
+    <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Singing Addict Screenshot" />
+    <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Singing Addict Screenshot" />
+    <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Singing Addict Screenshot" /> -->
+    </div>
+    `, "#e48246", false, true),
+
+    // add physics project
 ];
