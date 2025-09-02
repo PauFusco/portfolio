@@ -1,12 +1,16 @@
 <template>
   <div>
-    <h1>Other stuff</h1>
+    <h1>Game Jams</h1>
 
     <div style="margin-bottom: 30px;">
-      And here are some other stuff I've made or heavily contributed to, which are totally different than the stuff from
-      earlier.
+      Here are some Game Jam submissions I participated in :
     </div>
+
     <ProjectsList v-bind:projects="projects" />
+
+    <div style="margin-top: 20px;">
+      There is more to see on <a target="_blank" href="https://jeserak.itch.io">itch.io</a>
+    </div>
   </div>
 </template>
 

@@ -77,30 +77,38 @@ export default [
 
     new ProjectData("project-4", "Return: A JRPG Parody", "img/projects/return.png", `
     <div class="paragraph">
-    <strong>Eugeneable</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
-    <br/>Image by <a target="_blank" href="https://www.pexels.com/fr-fr/@neo8iam">NEOSiAM 2020</a>.
+    <strong>Return</strong> is a small turn-based RPG in which you control a group of friends
+    stranded in a new world, looking for a way to go back to their lives at home.
+    <br/>
+    It follows the common "isekai" trope of Japanese media, giving it a funny twist.
+    <br/>
+    This game was made by a group of 8 people with just SDL2, without any game engine.
     </div>
     
+    <div class="paragraph center">
+        <iframe class="youtube" src="https://www.youtube.com/embed/Q6oQ-PZFwFs" frameborder="0" allowfullscreen></iframe>
+    </div>
+
     <div class="paragraph">
-        Main features :
+        Main features I worked on :
         <ul>
-        <li>Some stuff</li>
-        <li>Some great stuff</li>
-        <li>More awesome stuff</li>
-        <li>And then some</li>
+        <li>Music</li>
+        <li>Sound Effects</li>
+        <li>Sound Implementation</li>
+        <li>Story design</li>
         </ul>
     </div>
 
     <div class="paragraph">
         <div class="notice">
-        Windows build available on <a href="https://some.where/nice" target="_blank">itch.io</a>.
+        Windows build and source code available on <a href="https://github.com/xGauss05/RPG-Game-Project" target="_blank">GitHub</a>.
         </div>
     </div>
 
-    <div class="paragraph center">
+    <!--<div class="paragraph center">
         <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Eugeneable Screenshot" />
         <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Eugeneable Screenshot" />
-    </div>
+    </div>-->
     `, "#9e642d"),
 
     new ProjectData("project-2", "2D Combat System Prototype", "img/projects/TFG.png", `
