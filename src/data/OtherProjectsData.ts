@@ -12,6 +12,12 @@ export default [
     </div>
 
     <div class="paragraph">
+    <div class="notice">
+        Browser and Windows builds available in <a href="https://softdrawss.itch.io/primalcycle" target="_blank">itch.io</a>.
+    </div>
+    </div>
+
+    <div class="paragraph">
       Main features I worked on :
       <ul>
       <li>Player Movement</li>
@@ -20,12 +26,6 @@ export default [
       <li>Enemy Spawns through a credit system</li>
       <li>Gunplay feedback</li>
       </ul>
-    </div>
-    
-    <div class="paragraph">
-    <div class="notice">
-        Browser and Windows builds available in <a href="https://softdrawss.itch.io/primalcycle" target="_blank">itch.io</a>.
-    </div>
     </div>
     
     <div class="paragraph center">
@@ -45,6 +45,12 @@ export default [
       <br/>
       Done with Unity in half a week, we took the main theme of the jam, "dreams and nightmares", and created this game.
     </div>
+
+    <div class="paragraph">
+    <div class="notice">
+      Windows build available in <a href="https://softdrawss.itch.io/morpheus-dream" target="_blank">itch.io</a>.
+    </div>
+    </div>
     
     <div class="paragraph center">
         <iframe class="youtube" src="https://youtube.com/embed/rwBT7pJFt-0" frameborder="0" allowfullscreen></iframe>
@@ -57,12 +63,6 @@ export default [
       <li>Iteractable Elements</li>
       <li>Color Aberration Shaders</li>
       </ul>
-    </div>
-
-    <div class="paragraph">
-    <div class="notice">
-      Windows build available in <a href="https://softdrawss.itch.io/morpheus-dream" target="_blank">itch.io</a>.
-    </div>
     </div>
 
     <div class="paragraph center">
@@ -82,7 +82,13 @@ export default [
       In this 2-stick arcade shooter you incarnate a dice, using the power of chance to empower themselves and defeat the cards.
       <br/>
       An entry to the GMTK 2022 Game Jam, made by a group of 12 first-year Game Design and Development students, using SDL2 and C++.
-    </div>
+      </div>
+
+      <div class="paragraph">
+        <div class="notice">
+          Windows build available in <a href="https://xgauss05.itch.io/no-time-to-dice" target="_blank">itch.io</a>.
+        </div>
+      </div>
 
     <div class="paragraph">
       Main features :
@@ -91,12 +97,6 @@ export default [
       <li>All Sound Effects</li>
       <li>Sound Implementation</li>
       </ul>
-    </div>
-
-    <div class="paragraph">
-      <div class="notice">
-        Windows build available in <a href="https://xgauss05.itch.io/no-time-to-dice" target="_blank">itch.io</a>.
-      </div>
     </div>
 
     <div class="paragraph center">
@@ -121,6 +121,12 @@ export default [
       This game won the "Premi F5 / Dones Tech" award, which focused on accessibility and minority representation.
     </div>
     
+    <div class="paragraph">
+    <div class="notice">
+      Windows build available in <a href="https://arawnecho.itch.io/in-the-tracks-of-fate" target="_blank">itch.io</a>.
+    </div>
+    </div>
+
     <div class="paragraph center">
         <iframe class="youtube" src="https://www.youtube.com/embed/szdzXoK7Ll0" frameborder="0" allowfullscreen></iframe>
     </div>

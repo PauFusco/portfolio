@@ -14,6 +14,13 @@ export default [
         <br/>
         Check the team in the <a href="https://shadow-wizard-games.github.io/Alien-Nemesis-Website/index.html" target="blank">Project Website</a>.
     </div>
+    
+    <div class="paragraph">
+    <div class="notice">
+        Windows build and source code available in <a href="https://github.com/Shadow-Wizard-Games/TheOneEngine" target="_blank">GitHub</a>.
+    </div>
+    </div>
+
     <div class="paragraph center">
         <iframe class="youtube" src="https://www.youtube.com/embed/FczGKS7WU1w" frameborder="0" allowfullscreen></iframe>
     </div>   
@@ -27,13 +34,6 @@ export default [
         <li>Bug and Crash Fixing</li>
         </ul>
     </div>
-
-    <div class="paragraph">
-    <div class="notice">
-        Windows build and source code available in <a href="https://github.com/Shadow-Wizard-Games/TheOneEngine" target="_blank">GitHub</a>.
-    </div>
-    </div>
-
     `, "#23bd69", false, true),
 
     new ProjectData("project-3", "Jailed VR", "img/projects/jailedvr.png", `
@@ -47,6 +47,14 @@ export default [
         This game takes focus in the interaction with in-game objects to tackle the three puzzles,
         while using the environment to add tension.
     </div>
+
+    <div class="paragraph">
+        <div class="notice">
+        Playable on <a href="https://xgauss05.itch.io/jailed-vr" target="_blank">itch.io</a>.
+        Source code is available on <a href="https://github.com/Ethanm-0371/Jailed-VR" target="_blank">GitHub</a>.
+        </div>
+    </div>
+
     <div class="paragraph center">
         <iframe class="youtube" src="https://www.youtube.com/embed/Gyj4yftFy-Q" frameborder="0" allowfullscreen></iframe>
     </div>
@@ -58,13 +66,6 @@ export default [
         <li>Implemented one of the three puzzles, one focused on using a radio by rotating its dial.</li>
         <li>Haptic feedback on the player's actions for a more immersive experience</li>
         </ul>
-    </div>
-
-    <div class="paragraph">
-        <div class="notice">
-        Playable on <a href="https://xgauss05.itch.io/jailed-vr" target="_blank">itch.io</a>.
-        Source code is available on <a href="https://github.com/Ethanm-0371/Jailed-VR" target="_blank">GitHub</a>.
-        </div>
     </div>
 
     <!-- <div class="paragraph center">
@@ -85,6 +86,12 @@ export default [
     This game was made by a group of 8 people with just SDL2, without any game engine.
     </div>
     
+    <div class="paragraph">
+    <div class="notice">
+        Windows build and source code available on <a href="https://github.com/xGauss05/RPG-Game-Project" target="_blank">GitHub</a>.
+    </div>
+    </div>
+
     <div class="paragraph center">
         <iframe class="youtube" src="https://www.youtube.com/embed/Q6oQ-PZFwFs" frameborder="0" allowfullscreen></iframe>
     </div>
@@ -99,11 +106,6 @@ export default [
         </ul>
     </div>
 
-    <div class="paragraph">
-        <div class="notice">
-        Windows build and source code available on <a href="https://github.com/xGauss05/RPG-Game-Project" target="_blank">GitHub</a>.
-        </div>
-    </div>
 
     <!--<div class="paragraph center">
         <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Eugeneable Screenshot" />
@@ -124,6 +126,14 @@ export default [
         <br/>
         The following video showcases the process of creation of the prototype.
     </div>
+    
+    <div class="paragraph">
+    <div class="notice">
+        Windows build, source code, and project report all available on
+        <a href="https://github.com/PauFusco/TFG2DCS" target="_blank">GitHub</a>.
+    </div>
+    </div>
+
     <div class="paragraph center">
         <iframe class="youtube" src="https://www.youtube.com/embed/sfrP1aZKm2w" frameborder="0" allowfullscreen></iframe>
     </div>
@@ -138,13 +148,6 @@ export default [
         <li>Custom Input System</li>
         <li>Attacks are Scriptable Objects: +flexibility & +iteration</li>
         </ul>
-    </div>
-
-    <div class="paragraph">
-    <div class="notice">
-        Windows build, source code, and project report all available on
-        <a href="https://github.com/PauFusco/TFG2DCS" target="_blank">GitHub</a>.
-    </div>
     </div>
 
     <!-- <div class="paragraph center">

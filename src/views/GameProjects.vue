@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Games</h1>
+    <h1>Projects</h1>
 
     <div style="margin-bottom: 30px;">
       The following are some games I've made or heavily contributed to.

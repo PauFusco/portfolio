@@ -4,7 +4,8 @@
 
     <div class="paragraph">
       <div>
-        I'm <strong>Pau Fusco</strong>, a Videogame Design and Development graduate, now searching for a job.
+        I'm <strong>Pau Fusco</strong>, a Videogame Design and Development graduate interested in Gameplay Programming
+        and Design.
         I want to make my passion get to gamers all around the world and let them enjoy great interactive experiences!
       </div>
 
@@ -20,7 +21,7 @@
     </div>
 
     <div class="photo">
-      <img src="img/pfp.png" alt="Avatar of Pau" />
+      <img src="img/pfp.png" alt="Profile Picture" />
     </div>
 
     <div style="clear:both"></div>
