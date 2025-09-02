@@ -19,7 +19,7 @@
       <router-link to="/contact">contact me</router-link>.
       <br />
       <br />
-      Besides Videogame Development, I am passionate about cooking, music, hardware, and my really cute cat.
+      Besides Videogame Development, I am passionate about cooking, music, hardware, and my cute cat.
 
       <div style="margin-top:20px; margin-bottom:20px;">
         <a class="download-link" href="d/CV-PauFusco-En.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i>
@@ -47,7 +47,6 @@
         I also was in charge of helping my colleages with any techical problem they encounter, from checking
         their laptops for any issue to migrating their data to their new devices.
       </div>
-
       <div class="tech-stack">Hardware, Device Recycling, Communication, Teamwork, Problem-Solving</div>
 
       <h2>Skills</h2>
@@ -85,35 +84,53 @@
       <h3>CITM UPC [2021 - 2025]</h3>
       <h4>Videogame Design and Development Degree</h4>
       <div>
-        Degree focused on Videogame Development, I worked with classmates to deliver enjoyable games to learn in the
-        process.
-        <br />
+        Degree focused on Videogame Development, I worked with classmates to
+        deliver enjoyable games to learn in the process.
       </div>
 
       <h2>Languages</h2>
 
-      <h3>American</h3>
-      <div>Basic knowledge but I know lots of one-liners</div>
+      <h3>English</h3>
+      <div>Cambridge Certified C1</div>
 
-      <h3>That's it</h3>
-      <div>Who needs another language when you speak American?</div>
+      <h3>Catalan</h3>
+      <div>Native</div>
 
+      <h3>Spanish</h3>
+      <div>Native</div>
+
+      <h3>German</h3>
+      <div>Four years in High School</div>
+
+      <h3>Japanese</h3>
+      <div>A bit of Duolingo</div>
 
       <h2>Besides...</h2>
       <div>
-        <h3>I ❤️ Violence</h3>
-        <div>I find it really soothing to just shoot at bad guys</div>
-
-        <h3>I 🧡 Sports</h3>
-        <div>I used to be thin but then I ingested 10 kilos of steroids and proteins a day while doing 1000 push-ups.
+        <h3>I ❤️ Video Games</h3>
+        <div>
+          Some of my favourites: Signalis, Breath of the Wild, Risk of Rain 2, and Katana Zero.
+          <br />
+          I love playing them, watching them, talking about them, and making them :D
+          <br />
+          If you see my 1600 hours in Warframe, it is not true. Steam is lying, I swear.
         </div>
 
-        <h3>I 💛 Politics</h3>
-        <div>I hope I can have a career here someday but I might have temper issues.</div>
+        <h3>I 🧡 Music</h3>
+        <div>
+          I enjoy listening to music, and I play the Saxophone and Piano. I also play in a band ^-^
+          <br />
+          I truly feel blessed to live at the same time as the Risk of Rain 2 soundtrack.
+        </div>
 
-        <h3>I 💚 Flowers</h3>
-        <div>Especially the big ones, with the trunk and leaves.</div>
+        <h3>I 💛 Manga & Anime</h3>
+        <div>
+          I grew up watching Dragon Ball, Dr. Slump, and Ranma½; now I spend my Sunday afternoons
+          waiting for my weekly Kagurabachi chapter.
+        </div>
 
+        <h3>I 💚 My Cat</h3>
+        <div class="tech-stack">It is so cute I wanna die!</div>
       </div>
     </div>
   </div>
@@ -144,7 +161,6 @@ h3 {
   font-weight: 100;
   font-size: 1.6em;
   margin: 0px;
-  padding: 0px;
   padding-top: 30px;
 }
 
