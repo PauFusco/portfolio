@@ -191,7 +191,6 @@ h4 {
 }
 
 .photo img {
-  height: 300px;
   width: 300px;
 }
 
