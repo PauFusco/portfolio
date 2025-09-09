@@ -3,15 +3,16 @@
     <h1>Resume</h1>
 
     <div class="paragraph">
-      I'm <strong>Pau Fusco</strong>, a Videogame Design & Development graduate at CITM (2025).
+      I'm <strong>Pau Fusco</strong>, a Videogame Design & Development graduate at CITM (2025),
+      with interest in everything regarding Gameplay Programming, from Systems to Combat.
       <br />
       Gained hands-on experience as an IT Assistant at Serveis Clínics, improving technical and problem-solving skills.
-      Developed and published academic and personal projects on Itch.io and GitHub, with a solid base in design and
+      <br />
+      Developed and published academic and personal projects on itch.io and GitHub, with a solid base in design and
       programming.
       <br />
-      Native in Catalan and Spanish, fluent in English, and basic in Japanese and German.
-      <br />
-      Passionate about video games and music, and motivated to grow within the game development industry.
+      Native in Catalan and Spanish, fluent in English, and basic in Japanese and German. Passionate about video games
+      and music, and motivated to grow within the game development industry.
       <br />
       <br />
       I am looking for a job to put into practice what I learned in my degree and prove my skills, so if you have any
@@ -31,6 +32,17 @@
     </div>
     <div class="photo">
       <img src="img/resume-photo.png" alt="Photo of Pau" />
+    </div>
+
+    <div style="clear:both"></div>
+
+    <h2>Education</h2>
+
+    <h3>CITM UPC [2021 - 2025]</h3>
+    <h4>Videogame Design and Development Degree</h4>
+    <div>
+      Degree focused on Videogame Development, I worked with classmates to
+      deliver enjoyable games to learn in the process.
     </div>
 
     <div style="clear:both"></div>
@@ -78,15 +90,6 @@
       </div>
 
       <div style="clear:both" />
-
-      <h2>Education</h2>
-
-      <h3>CITM UPC [2021 - 2025]</h3>
-      <h4>Videogame Design and Development Degree</h4>
-      <div>
-        Degree focused on Videogame Development, I worked with classmates to
-        deliver enjoyable games to learn in the process.
-      </div>
 
       <h2>Languages</h2>
 
