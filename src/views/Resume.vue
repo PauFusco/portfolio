@@ -23,7 +23,7 @@
 
       <div style="margin-top:20px; margin-bottom:20px;">
         <a class="download-link" href="d/CV-PauFusco-En.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i>
-          Download as PDF 🇪🇳</a>
+          Download as PDF 🇬🇧</a>
         <a class="download-link" href="d/CV-PauFusco.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i>
           Descargar en PDF 🇪🇸</a>
         <div style="clear:both"></div>
@@ -191,7 +191,6 @@ h4 {
 }
 
 .photo img {
-  height: 300px;
   width: 300px;
 }
 
