@@ -38,11 +38,19 @@
 
     <h2>Education</h2>
 
+    <h3>Tokio School [2025 - ?]</h3>
+    <h4>Master's Design and Programming in Unreal Engine</h4>
+    <div>
+
+    </div>
+
     <h3>CITM UPC [2021 - 2025]</h3>
-    <h4>Videogame Design and Development Degree</h4>
+    <h4>Bachelor's Videogame Design and Development Degree</h4>
     <div>
       Degree focused on Videogame Development, I worked with classmates to
       deliver enjoyable games to learn in the process.
+      <br />
+      In projects I focused on programming the systems related to the gameplay.
     </div>
 
     <div style="clear:both"></div>
