@@ -4,19 +4,19 @@
 
     <div class="paragraph">
       <div>
-        I'm <strong>Pau Fusco</strong>, a Videogame Design and Development graduate interested in Gameplay Programming
-        and Design.
+        I'm <strong>Pau Fusco</strong>, a Videogame Design and Development graduate interested in Gameplay Programming.
         I want to make my passion get to gamers all around the world and let them enjoy great interactive experiences!
       </div>
 
       <div style="margin-top: 20px;">
-        I've worked on some <router-link to="/game-projects">University Projects</router-link>, and some
-        <router-link to="/other-projects">Game Jams</router-link> as well.
+        I've worked on <router-link to="/game-projects">University Projects</router-link>, and
+        <router-link to="/other-projects">Game Jams</router-link> alike.
       </div>
 
       <div style="margin-top: 20px;">
-        I'm currently <strong>looking for a job</strong>.
         You can reach me <router-link to="/contact">through here</router-link>.
+        <br />
+        Check my resume <router-link to="/resume">here</router-link>.
       </div>
     </div>
 

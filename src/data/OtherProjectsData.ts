@@ -29,8 +29,29 @@ export default [
     </div>
     
     <div class="paragraph center">
-      <img class="pc-screenshot" src="https://img.itch.zone/aW1hZ2UvMzc2NjYzOS8yMjU0MzE5MC5wbmc=/original/nwM%2BDr.png" alt="Primal Cycle Screenshot" />
-      <img class="pc-screenshot" src="https://img.itch.zone/aW1hZ2UvMzc2NjYzOS8yMjU0MzI1MS5wbmc=/original/Iqdol2.png" alt="Sultans Of Sing Screenshot" />
+      <img class="pc-screenshot" src="https://img.itch.zone/aW1hZ2UvMzc2NjYzOS8yMjU0MzE5MC5wbmc=/original/nwM%2BDr.png" alt="Primal Cycle Screenshot 1" />
+      <img class="pc-screenshot" src="https://img.itch.zone/aW1hZ2UvMzc2NjYzOS8yMjU0MzI1MS5wbmc=/original/Iqdol2.png" alt="Primal Cycle Screenshot 2" />
+    </div>
+
+    <div class="paragraph">
+    <h3>Enemy Spawn System</h3>
+      This game's <strong>Enemy Spawn System</strong> is inspired by the Risk of Rain 2 Director System, which is also a rogue-like game with dynamic enemy spawns.
+      <br />
+      This system gives rooms a set amount of credits, that together with a preset cost for each enemy (that can depend on the level of threat, for example),
+      lets stages dinamically spawn enemies. The chance of spawning a specific enemy is also random, set by a chance, making the system highly customizable.
+      <br />
+      As the game progresses, rooms increase the available credits, increasing the amount of enemies that spawn. Since enemies have different spawn chances,
+      rooms spend credits randomly until they can't spend more.
+      
+      <div class="paragraph center">
+      <img class="photo" src="img/projects/enemySpawnerRecurseSnippet.png" alt="enemy spawner snippet" />
+      </div>
+
+      This is the code for the recursive spawner function, which with a given number of credits, spawns an enemy. If there are not enough credits to spawn
+      said enemy, the spawner tries to spawn a cheaper one. If the current one is the dasher (the cheapest), it stops.
+      <br />
+      One thing I would fix for this function is the obfuscation of this last point, spawning a cheaper enemy. In this snippet this fact is "hardcoded", 
+      since the switch moves to another preset case without comparing the costs. This could lead to unwanted behaviour if the costs of enemies are modified.
     </div>
     `, "#c14b06", false, true),
 

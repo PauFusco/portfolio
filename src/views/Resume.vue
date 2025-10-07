@@ -3,30 +3,27 @@
     <h1>Resume</h1>
 
     <div class="paragraph">
-      I'm <strong>Pau Fusco</strong>, a Videogame Design & Development graduate at CITM (2025),
-      with interest in everything regarding Gameplay Programming, from Systems to Combat.
+      I'm <strong>Pau Fusco</strong>, a Videogame Design & Development graduate at CITM (2025).
       <br />
-      Gained hands-on experience as an IT Assistant at Serveis Clínics, improving technical and problem-solving skills.
+      I focus on programming, gameplay specifically. I worked on university projects and game jams
+      implementing gameplay related systems, such as enemy spawns or player combat and movement.
+      <br />
+      Gained hands-on experience as IT Support at Serveis Clínics, improving technical and problem-solving skills.
       <br />
       Developed and published academic and personal projects on itch.io and GitHub, with a solid base in design and
       programming.
-      <br />
-      Native in Catalan and Spanish, fluent in English, and basic in Japanese and German. Passionate about video games
-      and music, and motivated to grow within the game development industry.
       <br />
       <br />
       I am looking for a job to put into practice what I learned in my degree and prove my skills, so if you have any
       opportunity feel free to
       <router-link to="/contact">contact me</router-link>.
       <br />
-      <br />
-      Besides Videogame Development, I am passionate about cooking, music, hardware, and my cute cat.
 
       <div style="margin-top:20px; margin-bottom:20px;">
         <a class="download-link" href="d/CV-PauFusco-En.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i>
           Download as PDF 🇬🇧</a>
-        <a class="download-link" href="d/CV-PauFusco.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i>
-          Descargar en PDF 🇪🇸</a>
+        <!--<a class="download-link" href="d/CV-PauFusco.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i>
+          Descargar en PDF 🇪🇸</a>-->
         <div style="clear:both"></div>
       </div>
     </div>
@@ -41,7 +38,7 @@
     <h3>Tokio School [2025 - ?]</h3>
     <h4>Master's Design and Programming in Unreal Engine</h4>
     <div>
-
+      Master's focused on Unreal Development to expand my knowledge on the Engine and Game Development overall.
     </div>
 
     <h3>CITM UPC [2021 - 2025]</h3>
@@ -51,6 +48,9 @@
       deliver enjoyable games to learn in the process.
       <br />
       In projects I focused on programming the systems related to the gameplay.
+      <br />
+      Check the <router-link to="/game-projects">projects</router-link> tab to see some of the projects I developed
+      in the degree.
     </div>
 
     <div style="clear:both"></div>
@@ -74,9 +74,9 @@
         <h3>Languages</h3>
         <SkillRate name="C++" />
         <SkillRate name="C#" />
-        <SkillRate name="MySQL" />
         <SkillRate name="C" />
         <SkillRate name="Python" />
+        <SkillRate name="Flutter" />
       </div>
 
       <div class="skill-set">
@@ -91,10 +91,9 @@
         <h3>Tools & Frameworks</h3>
         <SkillRate name="Visual Studio" />
         <SkillRate name="GIT" />
+        <SkillRate name="MySQL" />
         <SkillRate name="Scrum" />
-        <SkillRate name="Trello" />
-        <SkillRate name="NeoVim" />
-        <SkillRate name="Vuforia AR SDK" />
+        <SkillRate name="NVim" />
       </div>
 
       <div style="clear:both" />
@@ -103,12 +102,6 @@
 
       <h3>English</h3>
       <div>Cambridge Certified C1</div>
-
-      <h3>German</h3>
-      <div>Four years in High School</div>
-
-      <h3>Japanese</h3>
-      <div>A bit of Duolingo here and there</div>
 
       <h3>Catalan</h3>
       <div>My Mother Tongue</div>
@@ -201,9 +194,9 @@ h4 {
   padding-bottom: 10px;
 }
 
-.photo img {
+/* .photo img {
   width: 300px;
-}
+} */
 
 .tech-stack {
   font-style: italic;
