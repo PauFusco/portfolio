@@ -72,28 +72,29 @@
       <h2>Skills</h2>
       <div class="skill-set">
         <h3>Languages</h3>
-        <SkillRate name="C++" />
-        <SkillRate name="C#" />
-        <SkillRate name="C" />
-        <SkillRate name="Python" />
-        <SkillRate name="Flutter" />
+        <SkillRate name="C++" alt="C++" />
+        <SkillRate name="C#" alt="C#" />
+        <SkillRate name="C" alt="C" />
+        <SkillRate name="Python" alt="Python" />
+        <SkillRate name="Flutter" alt="Flutter" />
       </div>
 
       <div class="skill-set">
         <h3>Game Development</h3>
-        <SkillRate name="Unity" />
-        <SkillRate name="SDL2" />
-        <SkillRate name="Raylib" />
-        <SkillRate name="Unreal Engine" />
+        <SkillRate name="Godot" alt="Godot" />
+        <SkillRate name="Unity" alt="Unity" />
+        <SkillRate name="Unreal Engine" alt="Unreal Engine" />
+        <SkillRate name="SDL2" alt="SDL2" />
+        <SkillRate name="Raylib" alt="Raylib" />
       </div>
 
       <div class="skill-set">
         <h3>Tools & Frameworks</h3>
-        <SkillRate name="Visual Studio" />
-        <SkillRate name="GIT" />
-        <SkillRate name="MySQL" />
-        <SkillRate name="Scrum" />
-        <SkillRate name="NVim" />
+        <SkillRate name="Visual Studio" alt="Visual Studio" />
+        <SkillRate name="GIT" alt="GIT" />
+        <SkillRate name="MySQL" alt="MySQL" />
+        <SkillRate name="Scrum" alt="Scrum" />
+        <SkillRate name="NVim" alt="NVim" />
       </div>
 
       <div style="clear:both" />
