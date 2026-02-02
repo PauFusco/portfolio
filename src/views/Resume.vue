@@ -58,6 +58,13 @@
     <div class="full-content">
       <h2>Work experience</h2>
 
+      <h3> Software Engineer - Knowmad Mood</h3>
+      <h4>Remote, 2025-26</h4>
+      <div>
+        This position involved learning new tools to use them in a corporate environment.
+      </div>
+      <div class="tech-stack">Salesforce, Mulesoft, Java, Scrum, Kanban</div>
+
       <h3>IT Assistant - Serveis Clínics</h3>
       <h4>Barcelona, 2023</h4>
       <div>
